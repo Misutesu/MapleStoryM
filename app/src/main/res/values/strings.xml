@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MapleStoryM</string>
+    <string name="start">启动游戏</string>
+    <string name="to_cn">汉化</string>
+    <string name="to_usa">还原</string>
+    <string name="change_sim">修改运营商</string>
+    <string name="default_sim">还原运营商</string>
+    <string name="un_know">未知</string>
+
+    <string name="not_find_game">未安装游戏</string>
+    <string name="no_write_permission">没有读写权限</string>
+    <string name="no_root_permission">没有ROOT权限</string>
+    <string name="no_read_phone_permission">没有获取运营商Code权限</string>
+    <string name="not_find_maplestory">未找到MapleStoryM数据文件</string>
+    <string name="not_find_backup">未找到备份文件</string>
+    <string name="not_find_twn_file">未找到繁体数据文件</string>
+    <string name="to_cn_success">汉化成功</string>
+    <string name="to_cn_error">汉化失败</string>
+    <string name="change_sim_end">修改运营商完成</string>
+    <string name="create_backup_sim_success">备份运营商成功</string>
+    <string name="create_backup_sim_error">备份运营商失败</string>
+    <string name="no_old_sim_code">没有备份过</string>
+    <string name="default_sim_code">默认运营商ID：%s</string>
+    <string name="now_sim_code">当前运营商ID：%s</string>
+
+    <string name="xposed_is_open">Xposed框架已启动，以下功能不推荐使用</string>
+    <string name="xposed_is_close">Xposed框架未启动</string>
+    <string name="change_sim_hint">修改运营商重启失效，重启后重新修改一次</string>
+</resources>

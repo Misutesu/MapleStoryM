@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/start" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="48dp" />
+
+    <CheckBox
+        android:id="@+id/cb_xposed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/xposed_is_close" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/tv_default_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="140214012" />
+
+    <TextView
+        android:id="@+id/tv_now_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="140214012" />
+
+    <Button
+        android:id="@+id/btn_change_sim"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/change_sim" />
+
+    <Button
+        android:id="@+id/btn_default_sim"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/default_sim" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_sim_hint" />
+</LinearLayout>
