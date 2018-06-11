@@ -19,7 +19,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="hello xposed" />
+            android:value="MapleStory M 国际服" />
         <meta-data
             android:name="xposedminversion"
             android:value="82" />
